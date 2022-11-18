@@ -1,0 +1,20 @@
+.header .shopping-cart {
+    position: absolute;
+    top: 110%;
+    right: -110%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 30rem;
+    box-shadow: var(--box-shadow);
+    background: #fff;
+}
+.header .shopping-cart.active {
+    right: 2rem;
+}
+.header .shopping-cart .box {
+    display: flex;
+    gap: 1;
+    align-items: center;
+    margin: 1rem 0;
+    position: relative;
+}
